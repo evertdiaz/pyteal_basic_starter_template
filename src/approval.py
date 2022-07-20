@@ -8,7 +8,7 @@ def approval():
   )
   
 if __name__ == '__main__':
-  print(compileTeal(approval(), mode=Mode.Application, version=5))
+  print(compileTeal(approval(), mode=Mode.Application, version=6))
 
 # Another way to write for compilation
 
